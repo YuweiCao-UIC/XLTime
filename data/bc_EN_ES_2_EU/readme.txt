@@ -1,0 +1,1 @@
+Training set: Basque translation of English TempEval3 (whole dataset) + Basque translation of English tweets (whole dataset) + Basque translation of Spanish dataset (whole dataset)

@@ -1,0 +1,1 @@
+Training set: Portuguese translation of English TempEval3 (whole dataset) + Portuguese translation of English tweets (whole dataset) + Portuguese translation of Spanish dataset (whole dataset, translated using google)

@@ -1,0 +1,1 @@
+Training set: Portuguese translation of English TempEval3 (whole dataset) + Portuguese translation of English tweets (whole dataset) + Portuguese translation of French dataset (whole dataset, use google to translate FR files to PT files for the bc task)
