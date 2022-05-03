@@ -28,7 +28,7 @@ If you find this repository helpful, please consider citing our paper:
 @inproceedings{cao2022xltime,
   title={XLTime: A Cross-Lingual Knowledge Transfer Framework for Temporal Expression Extraction},
   author={Yuwei Cao and William Groves and Tanay Kumar Saha and Joel R. Tetreault and Alex Jaimes and Hao Peng and Philip S. Yu},
-  booktitle={2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  booktitle={the Findings of NAACL 2022},
   url={https://openreview.net/forum?id=6dXfj57KVdp},
   year={2022}
 }
