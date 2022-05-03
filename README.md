@@ -23,7 +23,7 @@ python ./XLTime/main.py --data_dir_sl=./data/sl_EN_2_FR/ --data_dir_bc=./data/bc
 python ./XLTime/map_results.py --data_path ./XLTime-mBERT_EN_2_FR_results/
 ```
 # Citation
-If you find this repository helpful, please consider citing out paper:
+If you find this repository helpful, please consider citing our paper:
 ```bibtex
 @inproceedings{cao2022xltime,
   title={XLTime: A Cross-Lingual Knowledge Transfer Framework for Temporal Expression Extraction},
