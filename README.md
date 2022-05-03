@@ -22,3 +22,14 @@ python ./XLTime/main.py --data_dir_sl=./data/sl_EN_2_FR/ --data_dir_bc=./data/bc
 # column 1 of the lower part of Table 8 of the paper)
 python ./XLTime/map_results.py --data_path ./XLTime-mBERT_EN_2_FR_results/
 ```
+# Citation
+If you find this repository helpful, please consider citing out paper:
+```bibtex
+@inproceedings{cao2022xltime,
+  title={XLTime: A Cross-Lingual Knowledge Transfer Framework for Temporal Expression Extraction},
+  author={Yuwei Cao and William Groves and Tanay Kumar Saha and Joel R. Tetreault and Alex Jaimes and Hao Peng and Philip S. Yu},
+  booktitle={2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  url={https://openreview.net/forum?id=6dXfj57KVdp},
+  year={2022}
+}
+```
