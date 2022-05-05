@@ -24,7 +24,7 @@ from torch.utils.data import DataLoader
 from model.XLTime import XLTime_XLMR, XLTime_mBERT
 from utils.train_utils import add_args, evaluate_model
 from utils.data_utils import SLProcessor, BCProcessor, MultiTaskDataset, MultiTaskBatchSampler, create_dataset, convert_examples_to_features, findout_max_seq_length
-from tqdm import tqdm_notebook as tqdm
+from tqdm import tqdm
 from tqdm import trange
 import pickle
 
@@ -226,7 +226,7 @@ def main():
 
                 tr_loss += loss.item()
                 tbar.set_description('Loss = %.4f' %(tr_loss / (step+1)))
-                
+                '''
                 if step%50 == 0:
                     print('epoch: ', str(e))
                     print('step: ', str(step))
@@ -236,7 +236,7 @@ def main():
                         writer.write('epoch: ' + str(e) + '\n')
                         writer.write('step: ' + str(step) + '\n')
                         writer.write("loss: " + str(tr_loss / (step+1)) + '\n\n')
-
+                '''
                 if (step + 1) % args.gradient_accumulation_steps == 0:
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
