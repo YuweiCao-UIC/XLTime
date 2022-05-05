@@ -1,5 +1,5 @@
 # XLTime
-This repository contains the source code, preprocessed dataset, and reproduction scripts for the NAACL 2022 paper [XLTime: A Cross-Lingual Knowledge Transfer Framework for Temporal Expression Extraction](https://openreview.net/pdf?id=6dXfj57KVdp).
+This repository contains the source code, preprocessed dataset, and reproduction scripts for the NAACL 2022 paper [XLTime: A Cross-Lingual Knowledge Transfer Framework for Temporal Expression Extraction](https://arxiv.org/abs/2205.01757).
 
 ./XLTime contains the source code of the proposed model.
 
