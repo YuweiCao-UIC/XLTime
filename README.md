@@ -15,6 +15,8 @@ This repository contains the source code, preprocessed dataset, and reproduction
 # part of Table 8 of the paper.
 # To reproduce the other XLTime experiments in the paper, please see reproduce_results.sh.
 
+pip install -r XLTime/requirements.txt
+
 # get 'w/ type' result (row 9, column 1 of the upper part of Table 8 of the paper)
 python ./XLTime/main.py --data_dir_sl=./data/sl_EN_2_FR/ --data_dir_bc=./data/bc_EN_2_FR/ --output_dir=./XLTime-mBERT_EN_2_FR_results/ --num_train_epochs=50 --do_train --do_eval --warmup_proportion=0.5 --learning_rate=0.000007 --train_batch_size=4 --dropout=0.2 --backbone=mBERT --model_size=base
 
